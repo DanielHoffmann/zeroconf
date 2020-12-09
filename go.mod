@@ -1,4 +1,4 @@
-module github.com/danielhoffmann/zeroconf
+module github.com/danielhoffmann/zeroconf/v2
 
 go 1.13
 
