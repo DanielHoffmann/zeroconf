@@ -81,6 +81,7 @@ func NewResolver(options ...ClientOption) (*Resolver, error) {
 
 // Browse for all services of a given type in a given domain.
 func (r *Resolver) Browse(ctx context.Context, service, domain string, entries chan<- *ServiceEntry) error {
+	fmt.Println("aaaaaa")
 	params := defaultParams(service)
 	if domain != "" {
 		params.Domain = domain
